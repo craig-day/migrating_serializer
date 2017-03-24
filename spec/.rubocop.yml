@@ -1,0 +1,11 @@
+inherit_from: ../.rubocop.yml
+
+# The top level describe block will always be long, but that is okay.
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
